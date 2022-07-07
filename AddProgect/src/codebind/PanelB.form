@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="codebind.PanelB">
+  <grid id="27dc6" binding="PanelB" layout-manager="GridLayoutManager" row-count="11" column-count="17" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1450" height="535"/>
+    </constraints>
+    <properties>
+      <background color="-15841943"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="fe829" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1181441"/>
+          <foreground color="-1181441"/>
+          <text value="Марка авто"/>
+        </properties>
+      </component>
+      <component id="17509" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1181441"/>
+          <foreground color="-1181441"/>
+          <text value="Страна"/>
+        </properties>
+      </component>
+      <component id="60698" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1181441"/>
+          <foreground color="-1181441"/>
+          <text value="     Объем"/>
+        </properties>
+      </component>
+      <component id="41889" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1181441"/>
+          <foreground color="-1181441"/>
+          <text value="Мощность"/>
+        </properties>
+      </component>
+      <component id="71993" class="javax.swing.JTable" binding="tableBuyCar">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="15" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="221"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15841943"/>
+          <foreground color="-1181441"/>
+          <gridColor color="-15841943"/>
+        </properties>
+      </component>
+      <component id="686fe" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1181441"/>
+          <foreground color="-1181441"/>
+          <text value="Кол-во владельцов"/>
+        </properties>
+      </component>
+      <component id="da614" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1181441"/>
+          <foreground color="-1181441"/>
+          <text value="Тип кузова"/>
+        </properties>
+      </component>
+      <component id="8e04" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1181441"/>
+          <foreground color="-1181441"/>
+          <text value="Пробег"/>
+        </properties>
+      </component>
+      <component id="dc145" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1181441"/>
+          <foreground color="-1181441"/>
+          <text value="Цена"/>
+        </properties>
+      </component>
+      <component id="3c36e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1181441"/>
+          <foreground color="-1181441"/>
+          <text value="           Имя владельца"/>
+        </properties>
+      </component>
+      <component id="6b86b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="14" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1181441"/>
+          <foreground color="-1181441"/>
+          <text value="Номер телефона"/>
+        </properties>
+      </component>
+      <component id="cfc94" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1181441"/>
+          <foreground color="-1181441"/>
+          <text value="           Год выпуска"/>
+        </properties>
+      </component>
+      <component id="2a0f8" class="javax.swing.JButton" binding="Search">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Поиск"/>
+        </properties>
+      </component>
+      <component id="fc54c" class="javax.swing.JTextField" binding="Manufacture">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="681da" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1181441"/>
+          <foreground color="-1181441"/>
+          <text value="Производитель"/>
+        </properties>
+      </component>
+      <component id="3903" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1181441"/>
+          <foreground color="-1181441"/>
+          <text value="Коробка передач"/>
+        </properties>
+      </component>
+      <component id="2077b" class="javax.swing.JTextField" binding="Transmission">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9603b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1181441"/>
+          <foreground color="-1181441"/>
+          <text value="Год выпуска"/>
+        </properties>
+      </component>
+      <component id="84c38" class="javax.swing.JTextField" binding="yearRelese">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="2e9b7" class="javax.swing.JButton" binding="allAds">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Все объявления"/>
+        </properties>
+      </component>
+      <component id="6cbf5" class="javax.swing.JButton" binding="buttonBack">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Назад"/>
+        </properties>
+      </component>
+      <component id="782a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1181441"/>
+          <foreground color="-1181441"/>
+          <text value="Производитель"/>
+        </properties>
+      </component>
+      <component id="30b32" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1181441"/>
+          <foreground color="-1181441"/>
+          <text value="         Коробка передач"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
